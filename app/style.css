@@ -1,0 +1,203 @@
+/*weibo-form*/
+.box{
+	display: inline-block;
+	width: 600px;
+	margin: 200px auto;
+}
+.tip{
+	display: none;
+}
+textarea{
+	border: 2px solid #cccccc;
+	padding: 5px 5px;
+	width: 600px;
+	height: 100px;
+	box-sizing: border-box;
+	box-shadow: 0 0 2px rgba(0,0,0,0.15);
+    border-radius: 2px;
+}
+.title{
+	float: right;
+	margin-bottom: 10px;
+}
+.title a{
+	text-decoration: none;
+	color: #5C5CFB;
+}
+.title .tip{
+	color: #4C4848;
+}
+form .submit{
+	float: right;
+	width: 90px;
+	height: 30px;
+	font-size: 14px;
+    background: #ff8140;
+    border: 1px solid #f77c3d;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+    margin-top: 10px;
+    cursor: pointer;
+}
+ form .disabled {
+ 	float: right;
+	width: 90px;
+	height: 30px;
+	font-size: 14px;
+    background: #ffc09f;
+    color: #fff;
+    border: 1px solid #fbbd9e;
+    border-radius: 2px;
+    box-shadow: none;
+    margin-top: 10px;
+}
+
+/*test*/
+.container{
+	float: left;
+	display: inline-block;
+	width: 78%;
+	height: 100%;
+	text-align: center;
+}
+.container h1{
+	font-size: 50px;
+	margin-top: 25%;
+	text-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+.list{
+	width: 100%;
+	height: 100%;
+	background-color: #DBAC3C;
+}
+.left{
+	float: left;
+	height: 100%;
+	width: 22%;
+	background-color: #BC881B;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.bac{
+	background-image: url(./bc.jpg);
+	width: 100%;
+	height: 210px;
+	margin-bottom: 37%;
+}
+.leftul{
+	width: 100%;
+	height: 21%;
+}
+.leftul li{
+	width: 100%;
+	height: 20%;
+	font-size: 24px;
+	font-family: "arial black";
+	padding-top: 30px;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	text-indent: 35%;
+}
+li a{
+	text-decoration: none;
+	color: #ffffcc;
+}
+.mygit{
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 22%;
+	background-color: #E39328;
+	text-align: center;
+}
+.mygit a{
+	font-size: 14px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #E2DEDE;
+}
+
+/*music-player*/
+@keyframes rotate{
+	from{
+		transform: rotateZ(0);
+	}
+	to{
+		transform: rotateZ(360deg);
+	}
+}
+.box2{
+	display: inline-block;
+	width: 600px;
+	margin: 10% auto;
+}
+.img{
+	background-image: url(./circle.svg); 
+	width: 300px;
+	height: 300px;
+	margin: 20px auto;
+	animation: rotate 5s linear infinite;
+    animation-play-state: paused;
+}
+.music{
+	width: 300px;
+	margin: 0 auto;
+}
+.play{
+	animation-play-state: running;
+}
+
+/*todolist*/
+.box1{
+	display: inline-block;
+	width: 430px;
+	margin: 100px auto;
+}
+.top{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 26px;
+}
+.form{
+	width: 430px;
+	height: 50px;
+	margin: 0 auto;
+}
+.input{
+	height:100%;
+	width: 350px;
+	border: none;
+	font-size: 17px;
+	padding-left: 10px;
+	color: #8B8383;
+}
+.add{
+	height: 100%;
+	width: 60px;
+	margin-left: 10px;
+	background-color: #FB731F;
+	border: none;
+	color: white;
+	font-size: 16px;
+}
+.add:hover{
+	cursor: pointer;
+}
+.content{
+	width: 420px;
+	background-color: rgba(255,255,255,.3);
+	margin-top: 20px;
+	list-style: none;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 17px;
+	line-height: 60px;
+	text-align: left;
+}
+.content .del{
+	float: right;
+	padding-right: 10px;
+	color: #A19898;
+}
+.del:hover{
+	cursor: pointer;
+}
